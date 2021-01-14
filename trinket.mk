@@ -8,6 +8,9 @@
 # Vendor blobs
 $(call inherit-product, vendor/xiaomi/trinket-common/trinket-common-vendor.mk)
 
+# Platform
+TARGET_BOARD_PLATFORM := trinket
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
